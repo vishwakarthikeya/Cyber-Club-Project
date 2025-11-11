@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color: #0A0E1A;
+    display:flex;
+    justify-content: space-between;
+    
+}
+button{
+    border-radius: 5px;
+    background-color:  #0A0E1A;
+    padding: 5px ;
+    margin: 25px;
+    color: white;
+    border: 1px solid #0A0E1A;
+}
+button:hover {
+    background-color: #1A2C50;
+     border: 1px solid #00FFFF;
+}
+.cyberClubLogoImage{
+    height: 80px;
+    width: 250px;
+    background-size: cover ;
+    margin: 5px;
+}
+.cyberClubHeroImage{
+    height:800px;
+    width: 100%;
+    background-image: url("assets/cyberClubHeroImage.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.profilebutton{
+    padding: 5px;
+    border-radius: 50%;
+}
+.titleAndTagLine{
+    height: 350px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+     align-self: center;
+    margin: 450px 200px 600px 1000px;
+    
+    margin-left: 600px;
+}
+.cyberCludTitle{
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 100px;
+    animation:cyberCludTitle 2s linear 0s infinite alternate-reverse;
+    margin-bottom: 20px;
+}
+@keyframes cyberCludTitle  {
+       from{
+        font-size: 0px;
+    }
+       to{ 
+          font-size: 60px;
+    }  
+}
