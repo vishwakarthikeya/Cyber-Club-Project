@@ -81,9 +81,9 @@ Feel free to fork this repository and submit pull requests to improve the design
 
 ## 🧑‍💻 Author
 
-**CH. Vishwa Karthikeya**
-💼 Developer & Designer of CyberClub Website
-📧 Email: *[chinthakindivishwakarthikeya@gmail.com](chinthakindivishwakarthikeya@gmail.com)*
+**CH. Vishwa Karthikeya**<br>
+💼 Developer & Designer of CyberClub Website<br>
+📧 Email: *[chinthakindivishwakarthikeya@gmail.com](chinthakindivishwakarthikeya@gmail.com)*<br>
 Phone Number : 8106586390
 
 ## 🛡️ License
