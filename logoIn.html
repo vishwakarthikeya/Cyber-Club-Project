@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CyberClub - Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="login-page">
+    <video autoplay muted loop playsinline class=".logoInPageVideo">
+      <source src="assets/logoInPageVideo.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <form class="login-window">
+      <input type="email" id="loginEmail" placeholder="Enter your email" required />
+      <input type="text" id="loginName" placeholder="Enter your name" required />
+      <input type="text" id="loginRollNumber" placeholder="Enter your roll number" required />
+
+      <select id="loginDepartment" required>
+        <option value="" disabled selected>Select Department</option>
+        <option value="AIML">AIML</option>
+        <option value="CS">CS</option>
+      </select>
+
+      <select id="loginYear" required>
+        <option value="" disabled selected>Select Year</option>
+        <option value="2ndYear">2nd Year</option>
+        <option value="3rdYear">3rd Year</option>
+        <option value="4thYear">4th Year</option>
+      </select>
+
+      <select id="loginRole" required>
+        <option value="" disabled selected>Select Role</option>
+        <option value="Admin">Admin</option>
+        <option value="Student">Student</option>
+      </select>
+
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</body>
+</html>
