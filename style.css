@@ -6,12 +6,12 @@
     color: white;
 }
 .navbar{
-    height: 100px;
+    height: 80px;
     width: 100%;
     background-color: #0A0E1A;
     display:flex;
     justify-content: space-between;
-    
+    box-shadow: 0 2px 8px rgba(0, 255, 255, 0.05);
 }
 button{
     border-radius: 5px;
@@ -20,13 +20,17 @@ button{
     margin: 25px;
     color: white;
     border: 1px solid #0A0E1A;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
 button:hover {
-    background-color: #1A2C50;
-     border: 1px solid #00FFFF;
+    border: 1px solid #00FFFF;
+    background: #00FFFF;
+    box-shadow: 0 0 10px #00FFFF;
+    color:#0A0E1A;
 }
 .cyberClubLogoImage{
-    height: 80px;
+    height: 60px;
     width: 250px;
     background-size: cover ;
     margin: 5px;
@@ -52,7 +56,6 @@ button:hover {
     justify-content: space-around;
      align-self: center;
     margin: 450px 200px 600px 1000px;
-    
     margin-left: 600px;
 }
 .cyberCludTitle{
@@ -61,6 +64,8 @@ button:hover {
     font-size: 100px;
     animation:cyberCludTitle 2s linear 0s infinite alternate-reverse;
     margin-bottom: 20px;
+    color: #00FFFF;
+     text-shadow: 0 0 25px rgba(0, 255, 255, 0.6);
 }
 @keyframes cyberCludTitle  {
        from{
@@ -70,3 +75,124 @@ button:hover {
           font-size: 60px;
     }  
 }
+.logoInPage{
+    height: 100%;
+    width: 100%;
+}
+.logoInPageVideo{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+
+
+}
+
+    /* ========== Video Background ========== */
+    .login-page {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .login-page video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+      filter: brightness(0.6) saturate(1.2);
+    }
+
+    /* ========== Login Window ========== */
+    .login-window {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(10px);
+      border-radius: 12px;
+      padding: 30px 40px;
+      max-width: 400px;
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+    }
+
+    .login-window input,
+    .login-window select {
+      width: 100%;
+      padding: 12px;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+      font-size: 15px;
+    }
+
+    .login-window input::placeholder {
+      color: #a3a3a3;
+    }
+
+    .login-window select {
+      cursor: pointer;
+    }
+
+    .login-window select option {
+      background-color: #0A0E1A;
+      color: #fff;
+    }
+
+    .login-window button {
+      background:#111727;
+      border: none;
+      color: #fff;
+      font-weight: 600;
+      font-size: 16px;
+      padding: 12px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .login-window button:hover {
+      background: #00FFFF;
+      box-shadow: 0 0 10px #00FFFF;
+            color: #0A0E1A;
+    }
+
+    /* ========== Responsive ========== */
+    @media (max-width: 500px) {
+      .login-window {
+        padding: 25px;
+        gap: 12px;
+      }
+    }
+footer{
+    height: 500px;
+    width: 100%;
+    background-color: #0A0E1A;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.events-page video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+      filter: brightness(0.6) saturate(1.2);
+    }
